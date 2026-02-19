@@ -46,16 +46,17 @@ If using an external USB-TTL converter:
 
 > ⚠️ TX connects to RX and RX connects to TX.
 
+![UART Connection](images/connection.webp)
+
 If using onboard ST-Link (e.g., Nucleo boards), no external wiring is required.
 
 ---
 
 ## 🖼 Result
 
-After flashing the code and opening the serial terminal 
-(with the configured baud rate), the transmitted message appears:
+After flashing the code and opening the serial terminal (with the configured baud rate), the transmitted message appears:
 
-https://controllerstech.com/wp-content/uploads/2023/12/uart1_9.webp
+![UART Output](images/result.webp)
 
 ---
 

@@ -35,12 +35,37 @@ The core HAL code is portable across most STM32 MCUs with minor clock/peripheral
 
 ---
 
+## 🔌 Connections
+
+If using an external USB-TTL converter:
+
+| STM32 Pin | USB-TTL Pin |
+|-----------|------------|
+| TX        | RX         |
+| GND       | GND        |
+
+> ⚠️ TX connects to RX and RX connects to TX.
+
+If using onboard ST-Link (e.g., Nucleo boards), no external wiring is required.
+
+---
+
+## 🖼 Result
+
+After flashing the code and opening the serial terminal 
+(with the configured baud rate), the transmitted message appears:
+
+https://controllerstech.com/wp-content/uploads/2023/12/uart1_9.webp
+
+---
+
 ## How to Use
 
 1. Open the project in **STM32CubeIDE**
-2. Configure the UART peripheral as needed
-3. Build and flash to your STM32 board
-4. Observe transmit behavior via a serial terminal
+2. Verify UART configuration (baud rate, word length, etc.)
+3. Build and flash the firmware
+4. Open a serial terminal with matching settings
+5. Observe transmitted data
 
 ---
 

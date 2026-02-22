@@ -83,7 +83,7 @@ After flashing and opening a serial terminal at the configured baud rate:
 ## How to Use
 
 1. Open the project in STM32CubeIDE
-2. Select the desired transmission mode (Interrupt / DMA Normal / DMA Circular) by enabling the relevant CubeMX configuration
+2. Comment/uncomment the relevant ```HAL_UART_Transmit_IT, HAL_UART_Transmit_DMA``` call in main.c, and ensure the matching CubeMX DMA/interrupt settings are active.
 3. Build and flash the firmware
 4. Open a serial terminal with matching settings (115200 baud, 8N1)
 5. Observe transmitted data and LED behaviour

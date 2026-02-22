@@ -275,3 +275,11 @@ float Flash_Read_NUM (uint32_t StartSectorAddress)
 	value = Bytes2float(buffer);
 	return value;
 }
+
+void Convert_To_Byte (uint32_t *Data, int numberofbytes, uint8_t *Buf)
+{
+	for (int i=0; i<numberofbytes; i++)
+	{
+		Buf[i] = Data[i/4]>>(8*(i%4));
+	}
+}

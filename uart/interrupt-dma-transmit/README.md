@@ -61,21 +61,15 @@ If using onboard ST-Link (e.g., Nucleo boards), no external wiring is required.
 * Enable UART in Asynchronous mode (same as blocking)
 * Enable the **UART global interrupt** in the NVIC tab
 
-![UART Config interrupt](images/interrupt.webp)
-
 ### DMA Mode (Normal)
 * Add a DMA Request for **USART_TX**
 * Direction: Memory to Peripheral
 * Data Width: Byte
 * Memory Increment: Enabled
 
-![UART Config dma normal](images/dma_normal.webp)
-
 ### DMA Mode (Circular)
 * Same as Normal DMA, but set DMA Mode to **Circular**
 * Uses both `HAL_UART_TxHalfCpltCallback()` and `HAL_UART_TxCpltCallback()` for real-time buffer updates
-
-![UART Config dma circular](images/dma_circular.webp)
 
 ## 🖼 Result
 

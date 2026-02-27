@@ -1,4 +1,4 @@
-# STM32 & ESP HAL/IoT Example Projects – Controllerstech
+# STM32 HAL Example Projects – Controllerstech
 
 Welcome to the **STM32-HAL repository**!  
 This repository contains hands-on **STM32 and ESP32/ESP8266 example projects**, covering HAL drivers, peripherals, FreeRTOS, Ethernet, IoT, Modbus TCP, and more.  

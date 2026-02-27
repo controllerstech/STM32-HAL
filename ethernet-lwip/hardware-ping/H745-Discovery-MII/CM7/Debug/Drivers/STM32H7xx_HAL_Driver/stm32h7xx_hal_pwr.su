@@ -1,0 +1,17 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:225:6:HAL_PWR_DeInit	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:236:6:HAL_PWR_EnableBkUpAccess	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:249:6:HAL_PWR_DisableBkUpAccess	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:415:6:HAL_PWR_ConfigPVD	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:470:6:HAL_PWR_EnablePVD	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:480:6:HAL_PWR_DisablePVD	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:507:6:HAL_PWR_EnableWakeUpPin	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:536:6:HAL_PWR_DisableWakeUpPin	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:564:6:HAL_PWR_EnterSLEEPMode	16	static,ignoring_inline_asm
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:618:6:HAL_PWR_EnterSTOPMode	16	static,ignoring_inline_asm
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:689:6:HAL_PWR_EnterSTANDBYMode	8	static,ignoring_inline_asm
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:741:6:HAL_PWR_EnableSleepOnExit	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:754:6:HAL_PWR_DisableSleepOnExit	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:767:6:HAL_PWR_EnableSEVOnPend	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:779:6:HAL_PWR_DisableSEVOnPend	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:808:6:HAL_PWR_PVD_IRQHandler	8	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:853:13:HAL_PWR_PVDCallback	4	static

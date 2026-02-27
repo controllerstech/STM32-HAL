@@ -22,7 +22,7 @@
 *****************************************************************************
 ** @attention
 **
-** Copyright (c) 2025 STMicroelectronics.
+** Copyright (c) 2026 STMicroelectronics.
 ** All rights reserved.
 **
 ** This software is licensed under terms that can be found in the LICENSE file
@@ -184,17 +184,17 @@ SECTIONS
     libm.a ( * )
     libgcc.a ( * )
   }
-  
+
     .lwip_sec (NOLOAD) : {
     . = ABSOLUTE(0x30000000);
-    *(.RxDecripSection) 
+    *(.RxDescripSection) 
     
     . = ABSOLUTE(0x30000080);
-    *(.TxDecripSection)
+    *(.TxDescripSection)
     
     . = ABSOLUTE(0x30000100);
     *(.Rx_PoolSection) 
   } >RAM_D2
-
+  
   .ARM.attributes 0 : { *(.ARM.attributes) }
 }

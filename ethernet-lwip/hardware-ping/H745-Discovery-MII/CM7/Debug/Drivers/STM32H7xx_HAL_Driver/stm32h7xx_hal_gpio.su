@@ -1,0 +1,8 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:165:6:HAL_GPIO_Init	40	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:303:6:HAL_GPIO_DeInit	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:390:15:HAL_GPIO_ReadPin	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:424:6:HAL_GPIO_WritePin	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:446:6:HAL_GPIO_TogglePin	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:471:19:HAL_GPIO_LockPin	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:506:6:HAL_GPIO_EXTI_IRQHandler	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:529:13:HAL_GPIO_EXTI_Callback	16	static

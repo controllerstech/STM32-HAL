@@ -1,0 +1,11 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:159:20:HAL_HSEM_Take	2
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:196:19:HAL_HSEM_FastTake	2
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:225:10:HAL_HSEM_IsSemTaken	2
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:237:7:HAL_HSEM_Release	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:258:6:HAL_HSEM_ReleaseAll	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:290:7:HAL_HSEM_SetClearKey	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:302:10:HAL_HSEM_GetClearKey	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:329:6:HAL_HSEM_ActivateNotification	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:353:6:HAL_HSEM_DeactivateNotification	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:376:6:HAL_HSEM_IRQHandler	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:422:13:HAL_HSEM_FreeCallback	1

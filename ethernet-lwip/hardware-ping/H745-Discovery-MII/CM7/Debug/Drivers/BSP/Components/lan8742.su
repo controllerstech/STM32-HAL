@@ -1,0 +1,14 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:60:10:LAN8742_RegisterBusIO	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:83:10:LAN8742_Init	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:138:9:LAN8742_DeInit	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:163:9:LAN8742_DisablePowerDownMode	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:193:9:LAN8742_EnablePowerDownMode	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:223:9:LAN8742_StartAutoNego	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:259:9:LAN8742_GetLinkState	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:351:9:LAN8742_SetLinkState	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:403:9:LAN8742_EnableLoopbackMode	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:433:9:LAN8742_DisableLoopbackMode	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:473:9:LAN8742_EnableIT	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:513:9:LAN8742_DisableIT	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:552:10:LAN8742_ClearIT	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/BSP/Components/lan8742/lan8742.c:582:9:LAN8742_GetITStatus	24	static

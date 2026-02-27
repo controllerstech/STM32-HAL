@@ -96,7 +96,7 @@ Set DMA descriptor and buffer addresses in SRAM. Example for H745 Discovery:
 - Enable **LWIP** under **Middleware**
 - Disable **DHCP** and set a **static IP** (e.g., `192.168.0.123`)
 - Set subnet mask to `255.255.255.0`
-- In the **Key Options** tab, allocate heap size (e.g., `5120` bytes) and set heap address (e.g., `0x30004000`)
+- In the **Key Options** tab, allocate heap size (e.g., `5120` bytes) and set heap address (e.g., `0x30004900`)
 - In the **Platform Settings** tab, set PHY to **LAN8742** (or your board's PHY)
 
 > Make sure I-Cache and D-Cache are enabled in System Core, otherwise LWIP cannot be enabled in CubeMX.
@@ -127,10 +127,10 @@ After generating the project, add the following section to your `.ld` flash scri
 ```ld
 .lwip_sec (NOLOAD) : {
   . = ABSOLUTE(0x30000000);
-  *(.RxDecripSection)
+  *(.RxDescripSection)
 
   . = ABSOLUTE(0x30000080);
-  *(.TxDecripSection)
+  *(.TxDescripSection)
 
   . = ABSOLUTE(0x30000100);
   *(.Rx_PoolSection)

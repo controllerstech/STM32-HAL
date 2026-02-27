@@ -1,0 +1,8 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:76:1:lwip_htons	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:90:1:lwip_htonl	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:105:1:lwip_strnstr	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:128:1:lwip_strnistr	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:151:1:lwip_stricmp	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:186:1:lwip_strnicmp	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:222:1:lwip_itoa	40	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Middlewares/Third_Party/LwIP/src/core/def.c:274:5:lwip_memcmp_consttime	40	static

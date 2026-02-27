@@ -1,0 +1,14 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:188:19:HAL_RCC_DeInit	18
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:405:26:HAL_RCC_OscConfig	89
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:922:19:HAL_RCC_ClockConfig	36
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1286:6:HAL_RCC_MCOConfig	2
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1340:6:HAL_RCC_EnableCSS	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1349:6:HAL_RCC_DisableCSS	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1388:10:HAL_RCC_GetSysClockFreq	12
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1485:10:HAL_RCC_GetHCLKFreq	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1517:10:HAL_RCC_GetPCLK1Freq	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1535:10:HAL_RCC_GetPCLK2Freq	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1552:6:HAL_RCC_GetOscConfig	12
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1718:6:HAL_RCC_GetClockConfig	1
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1774:6:HAL_RCC_NMI_IRQHandler	2
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1791:13:HAL_RCC_CSSCallback	1

@@ -164,7 +164,7 @@ int main(void)
 
 The image below shows the UDP server receiving data from the Hercules UDP client and echoing back a response:
 
-![UDP Server Result](images/udp_server_result.png)
+![UDP Server Result](images/udp_server_result.webp)
 
 The client sends a message and the server replies with `Hello <client_message> From UDP SERVER`.
 

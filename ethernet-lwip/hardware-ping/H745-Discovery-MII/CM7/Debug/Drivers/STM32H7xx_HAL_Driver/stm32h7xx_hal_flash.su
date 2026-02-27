@@ -1,0 +1,14 @@
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:160:19:HAL_FLASH_Program	48	static,ignoring_inline_asm
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:325:19:HAL_FLASH_Program_IT	40	static,ignoring_inline_asm
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:481:6:HAL_FLASH_IRQHandler	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:816:13:HAL_FLASH_EndOfOperationCallback	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:834:13:HAL_FLASH_OperationErrorCallback	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:867:19:HAL_FLASH_Unlock	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:904:19:HAL_FLASH_Lock	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:933:19:HAL_FLASH_OB_Unlock	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:955:19:HAL_FLASH_OB_Lock	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:973:19:HAL_FLASH_OB_Launch	16	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:1051:10:HAL_FLASH_GetError	4	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:1076:19:FLASH_WaitForLastOperation	32	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:1160:19:FLASH_OB_WaitForLastOperation	24	static
+/Users/arunrawat/Desktop/H745-Discovery-MII/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:1199:19:FLASH_CRC_WaitForLastOperation	24	static

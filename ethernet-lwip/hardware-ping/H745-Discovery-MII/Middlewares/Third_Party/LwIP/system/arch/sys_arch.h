@@ -38,31 +38,19 @@
 #error "NO_SYS need to be set to 0 to use threaded API"
 #endif
 
-#include "cmsis_os.h"
+#include "cmsis_os2.h"
 
 #ifdef  __cplusplus
 extern "C" {
 #endif
 
-#if (osCMSIS < 0x20000U)
-
-#define SYS_MBOX_NULL (osMessageQId)0
-#define SYS_SEM_NULL  (osSemaphoreId)0
-
-typedef osSemaphoreId sys_sem_t;
-typedef osSemaphoreId sys_mutex_t;
-typedef osMessageQId  sys_mbox_t;
-typedef osThreadId    sys_thread_t;
-#else
-
 #define SYS_MBOX_NULL (osMessageQueueId_t)0
 #define SYS_SEM_NULL  (osSemaphoreId_t)0
 
 typedef osSemaphoreId_t     sys_sem_t;
-typedef osSemaphoreId_t     sys_mutex_t;
+typedef osMutexId_t         sys_mutex_t;
 typedef osMessageQueueId_t  sys_mbox_t;
 typedef osThreadId_t        sys_thread_t;
-#endif
 
 #ifdef  __cplusplus
 }

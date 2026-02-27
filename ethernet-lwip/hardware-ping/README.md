@@ -232,7 +232,7 @@ Reply from 192.168.0.123: bytes=32 time<1ms TTL=255
 
 The image below shows the ping test result confirming successful Ethernet communication:
 
-![Ping Test Result](images/ping_result.avif)
+![Ping Test Result](images/ping_result.webp)
 
 ---
 

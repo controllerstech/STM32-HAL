@@ -6,9 +6,11 @@ We configure FreeRTOS on STM32 using CMSIS-RTOS V2 and blink an LED from a FreeR
 
 ---
 
-## Tested On
+## 📺 Tutorial
 
-- STM32 Nucleo-L496ZG-P
+**[Watch the full video tutorial on YouTube →](https://youtu.be/siQTCJ2t5v4)**
+
+**[Read the full written guide →](https://controllerstech.com/stm32-freertos-tutorial-cubemx-led-example/)**
 
 ---
 

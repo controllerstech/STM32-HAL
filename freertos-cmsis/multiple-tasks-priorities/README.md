@@ -80,11 +80,15 @@ While Task3 is suspended, the Green LED stays frozen in its current state and Ta
 
 ---
 
-## Related Resources
+## 🔗 Related Projects
 
-- 📖 [Full Tutorial — Controllerstech](https://controllerstech.com/stm32-freertos-multiple-tasks-priorities-preemption/)
-- 🎥 [Video Tutorial — YouTube](https://youtu.be/tzWdUVcMUgU)
-- 📁 [Part 1 — FreeRTOS Setup, Tasks & Scheduler](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/setup-led-blink)
+* [FreeRTOS Stack Management and Overflow Detection](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/Stack-Management)
+* [FreeRTOS Software Timers (Periodic & One-Shot)](https://github.com/controllerstech/STM32-FreeRTOS-Software-Timers)
+* [FreeRTOS Event Flags](https://github.com/controllerstech/STM32-FreeRTOS-Event-Flags)
+* [FreeRTOS Mutex — Priority Inheritance and Recursive Mutex](https://github.com/controllerstech/STM32-FreeRTOS-Mutex)
+* [FreeRTOS Semaphores — Binary and Counting](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/semaphores-binary-counting)
+* [FreeRTOS Queue — Inter-Task Communication](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/queue-inter-task-communication)
+* [FreeRTOS Setup and Blink LED](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/setup-led-blink)
 
 ---
 

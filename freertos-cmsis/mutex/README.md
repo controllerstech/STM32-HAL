@@ -166,10 +166,13 @@ void StartLPT(void *argument)
 
 ## 🔗 Related Projects
 
-- [FreeRTOS Semaphores — Binary and Counting](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/semaphores-binary-counting)
-- [FreeRTOS Queue — Inter-Task Communication](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/queue-inter-task-communication)
-- [FreeRTOS Multiple Tasks and Priorities](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/multiple-tasks-priorities)
-- [FreeRTOS Configuration - Blink LED](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/setup-led-blink)
+* [FreeRTOS Stack Management and Overflow Detection](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/Stack-Management)
+* [FreeRTOS Software Timers (Periodic & One-Shot)](https://github.com/controllerstech/STM32-FreeRTOS-Software-Timers)
+* [FreeRTOS Event Flags](https://github.com/controllerstech/STM32-FreeRTOS-Event-Flags)
+* [FreeRTOS Semaphores — Binary and Counting](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/semaphores-binary-counting)
+* [FreeRTOS Queue — Inter-Task Communication](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/queue-inter-task-communication)
+* [FreeRTOS Multiple Tasks and Priorities](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/multiple-tasks-priorities)
+* [FreeRTOS Setup and Blink LED](https://github.com/controllerstech/STM32-HAL/tree/master/freertos-cmsis/setup-led-blink)
 
 ---
 

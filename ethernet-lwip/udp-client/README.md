@@ -5,6 +5,14 @@ This is **Part 3** of the STM32 Ethernet (LWIP) series.
 
 ---
 
+## Full Tutorial and Explanation
+
+Step-by-step explanation, CubeMX screenshots, and video walkthrough available at:
+
+👉 https://controllerstech.com/stm32-ethernet-3-udp-client/
+
+---
+
 ## Features Covered
 
 - Creating a UDP PCB with `udp_new()`
@@ -162,14 +170,6 @@ The image below shows the STM32 sending periodic messages to the Hercules UDP se
 |Communication stops after a few messages|pbuf_free() missing|Always free both Tx and Rx pbufs|
 |pbuf_alloc() returns NULL|Memory pool exhausted|Increase LWIP heap in CubeMX or fix a pbuf leak|
 |Timer fires but nothing sent|Timer interrupt not started|Call HAL_TIM_Base_Start_IT() before main loop|
-
----
-
-## Full Tutorial and Explanation
-
-Step-by-step explanation, CubeMX screenshots, and video walkthrough available at:
-
-👉 https://controllerstech.com/stm32-ethernet-3-udp-client/
 
 ---
 

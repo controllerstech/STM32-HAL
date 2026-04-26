@@ -9,18 +9,18 @@
 void glue_modbus_handler(struct mg_modbus_req *req) {
 
   // This is just a stab
-#define READ_COIL(i) i
-#define WRITE_COIL(i, val) MG_INFO(("coil %d = %d", i, val));
+#define READ_COIL(i) (i)
+#define WRITE_COIL(i, val) MG_INFO(("coil %d = %d", (i), (val)));
 
   // You can process other Modbus commands, too. See
   // https://github.com/cesanta/mongoose/blob/master/src/modbus.h
   if (req->func == MG_MODBUS_FUNC_READ_COILS) {
     for (uint16_t i = 0; i < req->len; i++) {
-      req->u.bits[i] = READ_COIL(i);
+      req->u.bits[i] = READ_COIL(req->addr + i);
     }
   } else if (req->func == MG_MODBUS_FUNC_WRITE_MULTIPLE_COILS) {
     for (uint16_t i = 0; i < req->len; i++) {
-      WRITE_COIL(i, req->u.bits[i]);
+      WRITE_COIL(req->addr + i, req->u.bits[i]);
     }
   } else {
     req->error = MG_MODBUS_ERR_DEVICE_FAILURE;

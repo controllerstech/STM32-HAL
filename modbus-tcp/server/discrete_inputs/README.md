@@ -116,7 +116,7 @@ int READ_INPUTS(uint16_t i) {
 void my_modbus_handler(struct mg_modbus_req *req) {
   if (req->func == MG_MODBUS_FUNC_READ_DISCRETE_INPUTS) {
     for (uint16_t i = 0; i < req->len; i++) {
-      req->u.bits[i] = READ_INPUTS(i);
+      req->u.bits[i] = READ_INPUTS(req->addr + i);
     }
   }
   else {

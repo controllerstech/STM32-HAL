@@ -95,8 +95,9 @@ uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
 
 /* USER CODE BEGIN PRIVATE_VARIABLES */
 
-uint8_t recvDone = 0;
-uint32_t recvLen = 0;
+uint8_t  recvDone = 0;     
+uint32_t recvLen  = 0;     
+uint8_t           recvBuf[64];
 
 /* USER CODE END PRIVATE_VARIABLES */
 
@@ -264,10 +265,15 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 {
   /* USER CODE BEGIN 6 */
+  if (*Len <= sizeof(recvBuf))
+  {
+    memcpy(rxBuffer, Buf, *Len);
+    recvLen = *Len;
+    recvDone = 1;
+  }
+
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
-  recvDone = 1;
-  recvLen = *Len;
   return (USBD_OK);
   /* USER CODE END 6 */
 }

@@ -62,11 +62,15 @@ extern uint32_t recvLen;
 
 int _write(int file, char *ptr, int len)
 {
-	if (CDC_Transmit_FS((uint8_t *)ptr, len) == USBD_BUSY)
-	{
-		HAL_Delay(1);
-	}
-	return len;
+    uint32_t start = HAL_GetTick();
+
+    while (CDC_Transmit_FS((uint8_t *)ptr, (uint16_t)len) != USBD_OK)
+    {
+        if (HAL_GetTick() - start > 1000) return -1;
+        HAL_Delay(1);
+    }
+
+    return len;
 }
 
 int testNum = 1234;

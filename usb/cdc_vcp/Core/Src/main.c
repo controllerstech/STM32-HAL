@@ -56,9 +56,9 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-extern uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];
-extern uint8_t recvDone;
+extern uint8_t  recvDone;
 extern uint32_t recvLen;
+extern uint8_t  recvBuf[64];
 
 int _write(int file, char *ptr, int len)
 {
@@ -119,21 +119,28 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  if (recvDone == 1)
-	  {
-		  recvDone = 0;
-		  if (strncmp((char *)UserRxBufferFS, "ON", recvLen) == 0)
-		  {
-			  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, 1);
-			  CDC_Transmit_FS((uint8_t *)"LED Turned ON\n", 16);
-		  }
+  if (recvDone)
+  {
+    recvDone = 0;
+    uint32_t len = recvLen;
 
-		  else if (strncmp((char *)UserRxBufferFS, "OFF", recvLen) == 0)
-		  {
-			  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, 0);
-			  CDC_Transmit_FS((uint8_t *)"LED Turned OFF\n", 17);
-		  }
-	  }
+    /* Remove a trailing CR or LF added by the terminal */
+    while ((len > 0) && ((recvBuf[len - 1] == '\r') || (recvBuf[len - 1] == '\n')))
+    {
+      len--;
+    }
+
+    if ((len == 2) && (memcmp(recvBuf, "ON", 2) == 0))
+    {
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
+      CDC_Transmit_FS((uint8_t *)"LED Turned ON\r\n", 15);
+    }
+    else if ((len == 3) && (memcmp(recvBuf, "OFF", 3) == 0))
+    {
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
+      CDC_Transmit_FS((uint8_t *)"LED Turned OFF\r\n", 16);
+    }
+  }
 
 //	  CDC_Transmit_FS((uint8_t *)"Hello World\n", 12);
 //	  HAL_Delay(1000);

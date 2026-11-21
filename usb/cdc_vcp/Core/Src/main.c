@@ -74,7 +74,6 @@ int _write(int file, char *ptr, int len)
 }
 
 int testNum = 1234;
-
 /* USER CODE END 0 */
 
 /**
@@ -119,35 +118,34 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-  if (recvDone)
-  {
-    recvDone = 0;
-    uint32_t len = recvLen;
+	  if (recvDone)
+	  {
+	    recvDone = 0;
+	    uint32_t len = recvLen;
 
-    /* Remove a trailing CR or LF added by the terminal */
-    while ((len > 0) && ((recvBuf[len - 1] == '\r') || (recvBuf[len - 1] == '\n')))
-    {
-      len--;
-    }
+	    /* Remove a trailing CR or LF added by the terminal */
+	    while ((len > 0) && ((recvBuf[len - 1] == '\r') || (recvBuf[len - 1] == '\n')))
+	    {
+	      len--;
+	    }
 
-    if ((len == 2) && (memcmp(recvBuf, "ON", 2) == 0))
-    {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
-      CDC_Transmit_FS((uint8_t *)"LED Turned ON\r\n", 15);
-    }
-    else if ((len == 3) && (memcmp(recvBuf, "OFF", 3) == 0))
-    {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
-      CDC_Transmit_FS((uint8_t *)"LED Turned OFF\r\n", 16);
-    }
-  }
+	    if ((len == 2) && (memcmp(recvBuf, "ON", 2) == 0))
+	    {
+	      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
+	      CDC_Transmit_FS((uint8_t *)"LED Turned ON\r\n", 15);
+	    }
+	    else if ((len == 3) && (memcmp(recvBuf, "OFF", 3) == 0))
+	    {
+	      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
+	      CDC_Transmit_FS((uint8_t *)"LED Turned OFF\r\n", 16);
+	    }
+	  }
 
 //	  CDC_Transmit_FS((uint8_t *)"Hello World\n", 12);
 //	  HAL_Delay(1000);
 
-	  printf ("Printing via printf() %d\r\n", testNum);
+	  printf("Printing via printf() %d\r\n", testNum);
 	  HAL_Delay(1000);
-
   }
   /* USER CODE END 3 */
 }
